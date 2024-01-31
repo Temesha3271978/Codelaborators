@@ -10,6 +10,8 @@ import MapKit
 import Foundation
 
 struct CustomMapView: View {
+    var incident =  IncidentModel(name:"User1", incident: "Accident", image:
+                                    "Image1", timestamp: Date())
     
     @State private var userLocationInput = ""
     
@@ -27,15 +29,33 @@ struct CustomMapView: View {
             
             VStack{
                 ScrollView{
-                    
+                    Text("IN CASE OF EMERGENCY CALL 911")
+                    Color(.red)
                     Map(coordinateRegion: $region)
-                        .frame(height:500)
+                    .frame(height:700)
+                
+                    
+                
+                    Image("Image1")
+                        .resizable()
+                        .aspectRatio(contentMode: .fill)
+                        .edgesIgnoringSafeArea(.all)
+                    
+Image("Image2")
+                        .resizable()
+                        .aspectRatio(contentMode: .fill)
+                        .edgesIgnoringSafeArea(.all)
+                    
+                    Image("Image3")
+                        .resizable()
+                        .aspectRatio(contentMode: .fill)
+                        .edgesIgnoringSafeArea(.all)
                 }
         
                  
                     
-             // IncidentModel(name:"Temsha", incident: "Accident", image:
-                           // "KAREN_image.jpg", timestamp: Date())
+              
+                       
                     
                 
             }

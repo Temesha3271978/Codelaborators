@@ -14,6 +14,7 @@
 		7688AD982B6803190015C333 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7688AD972B6803190015C333 /* MapView.swift */; };
 		7688AD9A2B6925890015C333 /* Splash view.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7688AD992B6925890015C333 /* Splash view.swift */; };
 		7688AD9C2B69382D0015C333 /* IncidentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7688AD9B2B69382D0015C333 /* IncidentModel.swift */; };
+		7688ADA02B6A8F4A0015C333 /* Live Interaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7688AD9F2B6A8F4A0015C333 /* Live Interaction.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		7688AD972B6803190015C333 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		7688AD992B6925890015C333 /* Splash view.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Splash view.swift"; sourceTree = "<group>"; };
 		7688AD9B2B69382D0015C333 /* IncidentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncidentModel.swift; sourceTree = "<group>"; };
+		7688AD9F2B6A8F4A0015C333 /* Live Interaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Live Interaction.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				7663024F2B6339C3005CDB99 /* ContentView.swift */,
 				7688AD992B6925890015C333 /* Splash view.swift */,
 				7688AD972B6803190015C333 /* MapView.swift */,
+				7688AD9F2B6A8F4A0015C333 /* Live Interaction.swift */,
 				7688AD9B2B69382D0015C333 /* IncidentModel.swift */,
 				766302512B6339C4005CDB99 /* Assets.xcassets */,
 				766302532B6339C4005CDB99 /* Preview Content */,
@@ -149,6 +152,7 @@
 				766302502B6339C3005CDB99 /* ContentView.swift in Sources */,
 				7688AD9C2B69382D0015C333 /* IncidentModel.swift in Sources */,
 				7688AD982B6803190015C333 /* MapView.swift in Sources */,
+				7688ADA02B6A8F4A0015C333 /* Live Interaction.swift in Sources */,
 				7688AD9A2B6925890015C333 /* Splash view.swift in Sources */,
 				7663024E2B6339C3005CDB99 /* THE_KAREN_APPApp.swift in Sources */,
 			);
