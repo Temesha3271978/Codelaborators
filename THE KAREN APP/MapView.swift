@@ -7,6 +7,7 @@
 
 import SwiftUI
 import MapKit
+import Foundation
 
 struct CustomMapView: View {
     
@@ -16,7 +17,6 @@ struct CustomMapView: View {
     
     @State var region =   MKCoordinateRegion(center: CLLocationCoordinate2D(latitude: 42.3314, longitude: -83.04585), span: MKCoordinateSpan(latitudeDelta: 0.5, longitudeDelta: 0.5))
     
-    //    MKCoordinateRegion(center: CLLocationCoordinate2D(latitude: 42.3314, longitude: -83.04585), span: MKCoordinateSpan(latitudeDelta: 0.5, longitudeDelta: 0.5))
     
     @State private var isMapClicked = false
     
@@ -27,15 +27,22 @@ struct CustomMapView: View {
             
             VStack{
                 ScrollView{
+                    
                     Map(coordinateRegion: $region)
-                        .frame(height:200)
-                    
-                    
+                        .frame(height:500)
                 }
+        
+                 
+                    
+             // IncidentModel(name:"Temsha", incident: "Accident", image:
+                           // "KAREN_image.jpg", timestamp: Date())
+                    
+                
             }
         }
     }
 }
+//IncidentModel()
 #Preview {
     
 

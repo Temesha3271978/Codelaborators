@@ -17,5 +17,22 @@ struct IncidentModel{
     
     
 }
-
-
+func printAndModifyModel() {
+    let Model = IncidentModel (name:"Temsha", incident: "Accident", image:
+                                "KAREN_image.jpg", timestamp: Date())
+    
+    print("name: \(Model.name)")
+    print("Incident: \(Model.incident)")
+    print("image: \(Model.image)")
+    print("timestamp: \(Model.timestamp)")
+    
+    //change name
+    var mutableModel = Model
+    mutableModel.name = "Jane Doe"
+    
+    print("Updated Name: \(mutableModel.name)")
+    
+    printAndModifyModel()
+    
+    
+}

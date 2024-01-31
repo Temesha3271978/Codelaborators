@@ -17,14 +17,16 @@ struct Splash_View: View {
         if isActive == false {
             VStack{
                 Image("KAREN")
-                    .font(.system(size: 80)).foregroundColor(.blue)
+            .font(.system(size: 1000)).foregroundColor(.blue)
+            .scaledToFit()
+               
             }
             .scaleEffect(size)
             .opacity(opacity)
             .onAppear{
-                withAnimation(.easeIn(duration: 9)) {
+                withAnimation(.easeIn(duration: 3)) {
                     self.size = 1.0
-                    self.opacity = 1.0
+                    self.opacity = 40
                     isActive = true
                 }
             }
