@@ -8,18 +8,21 @@
 import SwiftUI
 import MapKit
 import Foundation
+import CloudKit
+
 
 struct CustomMapView: View {
     var incident =  IncidentModel(name:"User1", incident: "Accident", image:
                                     "Image1", timestamp: Date())
     
-//    let firstIncident = IncidentModel [0]
-//    print ("name: \(firstIncident.name)")
-//    print ("incident: \(firstIncident.incident)")
-//    print ("image: \firstIncident.image)")
-//    print ("timestamp: \firstIncident.timestamp)")
-//    
+
     @State private var userLocationInput = ""
+    
+   // var cloudKit = CloudKitService()
+    
+   // var incidentVM = IncidentClass()
+    
+    var text = ""
     
     
     

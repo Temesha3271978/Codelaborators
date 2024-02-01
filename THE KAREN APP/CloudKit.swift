@@ -8,23 +8,37 @@
 import Foundation
 import CloudKit
 import SwiftUI
+import Observation
 
 
 
 
-class CloudKitService {
+@Observable class IncidentClass {
+    
+    
+    var globalIncidentModel = [
+        IncidentModel(name: "Jane Doe", incident: "Car Accident", image: "car", timestamp: Date())
+        
+    ]
+    
+    
+    let cloudKit = CloudKitService()
+    
+    
+}
+
+
+
+ class CloudKitService {
     enum CloudKitServiceError: Error {
         case recordNotInDatabase
     }
     private let container = CKContainer(identifier: "iCloud.com.CoryTripathy.CloudKitShare")
     
     private lazy var database = container.publicCloudDatabase
-   
-    let firstIncident = IncidentModel [0]
-    print ("name: \(firstIncident.name)")
-    print ("incident: \(firstIncident.incident)")
-    print ("image: \firstIncident.image)")
-    print ("timestamp: \firstIncident.timestamp)")
+    
+  
+
     
     
    
