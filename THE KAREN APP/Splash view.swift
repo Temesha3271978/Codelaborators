@@ -7,10 +7,17 @@
 
 import SwiftUI
 
+
 struct Splash_View: View {
     @State private var isActive = false
     @State private var size = 0.8
-    @State private var opacity = 0.5
+    @State private var opacity = 0.1
+    
+    let firstIcident = incidents [0]
+    print ("name: \(firstIncident.name)")
+    print ("incident: \(firstIncident.incident)")
+    print ("image: \firstIncident.image)")
+    print ("timestamp: \firstIncident.timestamp)")
     var body: some View {
         
         

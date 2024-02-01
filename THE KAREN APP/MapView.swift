@@ -13,6 +13,12 @@ struct CustomMapView: View {
     var incident =  IncidentModel(name:"User1", incident: "Accident", image:
                                     "Image1", timestamp: Date())
     
+//    let firstIncident = IncidentModel [0]
+//    print ("name: \(firstIncident.name)")
+//    print ("incident: \(firstIncident.incident)")
+//    print ("image: \firstIncident.image)")
+//    print ("timestamp: \firstIncident.timestamp)")
+//    
     @State private var userLocationInput = ""
     
     
@@ -32,7 +38,7 @@ struct CustomMapView: View {
                     Text("IN CASE OF EMERGENCY CALL 911")
                     Color(.red)
                     Map(coordinateRegion: $region)
-                    .frame(height:700)
+                    .frame(height:500)
                 
                     
                 
@@ -62,7 +68,7 @@ Image("Image2")
         }
     }
 }
-//IncidentModel()
+
 #Preview {
     
 

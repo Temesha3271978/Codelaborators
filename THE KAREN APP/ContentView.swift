@@ -21,39 +21,13 @@ struct ContentView: View {
         
         ZStack {
             Color(.blue)
-            //.ignoreSafeArea()
+            
             
             VStack {
                 
                 ScrollView {
                     
-                //    CustomMapView(region: $region)
-                    
-//                    Image("KAREN")
-//                        .scaledToFit()
-//                        .padding()
-                    
-                    //                    Group{
-                    //                        ForEach(1...10, id: \.self) { count in
-                    //                            ZStack {
-                    //                                if 1 == count{
-                    //                                    RoundedRectangle(cornerRadius: 8)
-                    //                                        .foregroundColor(.blue)
-                    //                                } else {
-                    //                                    RoundedRectangle(cornerRadius: 8)
-                    //                                        .strokeBorder(lineWidth: 2)
-                    //                                        .foregroundColor(.accentColor)
-                    //                                }
-                    //                          
-                    //                                }
-                    //                                
-                    //                                
-                    //                                
-                    //                                
-                    //                                
-                    //                            }
-                    //                        }
-                    
+        
                    
                 }
                 

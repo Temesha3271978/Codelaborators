@@ -6,9 +6,10 @@
 //
 
 import Foundation
-struct IncidentModel{
+
+struct IncidentModel: Identifiable {
     
-    
+    let id = UUID().uuidString
     var name:String
     var incident:String
     var image: String
