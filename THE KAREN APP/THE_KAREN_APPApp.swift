@@ -7,11 +7,14 @@
 
 import SwiftUI
 
+
 @main
 struct THE_KAREN_APPApp: App {
     var body: some Scene {
         WindowGroup {
             Splash_View()
+           
+            
         }
     }
 }

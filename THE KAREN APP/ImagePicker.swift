@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+
 struct ImagePicker:
     UIViewControllerRepresentable {
     @Binding var selectedImage: UIImage?
@@ -39,10 +40,10 @@ struct ImagePicker:
         let picker =
         UIImagePickerController()
         picker.delegate =
-        context.coordinator
+        context.coordinator as! any UIImagePickerControllerDelegate & UINavigationControllerDelegate
         return picker
     }
-    func updateUIViewController(_uiviewController: UIImagePickerController, context: Context) {}
+    func updateUIViewController(_ _uiviewController: UIImagePickerController, context: Context) {}
 }
     
     
@@ -53,11 +54,13 @@ struct ContentView: View {
     isImagePickerPresented = false
     var body: some View {
         VStack{
-            if let image = selectedImage {
-                Image(uiImage: image)
-                    .resizable()
-                    .scaledToFit()
-            } else {
+            if let myImage = UIImage(named: "exampleImage") {
+                
+                
+                
+                
+            } else
+            {
                 Text("No Image Selected")
             }
             Button("Select Image") {
@@ -72,16 +75,20 @@ struct ContentView: View {
             
         }
         
-        .padding()
+        
+        
+        padding()
     }
     
-    
-    
-    
-    
-    
-    
-    #Preview {
-        ImagePicker2()
-    }
 }
+        
+        
+        
+        
+        
+//        #Preview {
+//            ImagePicker( selectedImage: nil )
+//            
+//        }
+//        
+//    
