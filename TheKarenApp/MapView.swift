@@ -38,7 +38,7 @@ struct CustomMapView: View {
     
     @State var incidentList:[IncidentModel] = [
         IncidentModel (name:"Gabby", incident: "Fire on Linwood and Clairmount", image:
-                        "fire", timestamp: Date()),
+                        "fire", timestamp: Date(timeIntervalSinceNow: -(60 * 60 * 24))),
         IncidentModel (name:"Johnell", incident: "Hit and run accident on Woodward and Brush", image:
                         "car", timestamp: Date()),
         IncidentModel (name:"Jane Doe", incident: "I caught this fool breaking into my house last night when I got off work", image:
