@@ -7,17 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7663024E2B6339C3005CDB99 /* THE_KAREN_APPApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7663024D2B6339C3005CDB99 /* THE_KAREN_APPApp.swift */; };
-		766302522B6339C4005CDB99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 766302512B6339C4005CDB99 /* Assets.xcassets */; };
-		766302552B6339C4005CDB99 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 766302542B6339C4005CDB99 /* Preview Assets.xcassets */; };
-		7688AD982B6803190015C333 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7688AD972B6803190015C333 /* MapView.swift */; };
-		7688AD9A2B6925890015C333 /* Splash view.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7688AD992B6925890015C333 /* Splash view.swift */; };
-		7688AD9C2B69382D0015C333 /* IncidentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7688AD9B2B69382D0015C333 /* IncidentModel.swift */; };
-		76B4CABD2B6D72E2007C44CA /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B4CABC2B6D72E2007C44CA /* ImagePicker.swift */; };
+		C36E24732B73CF260017A585 /* TheKarenAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36E24722B73CF260017A585 /* TheKarenAppApp.swift */; };
+		C36E24752B73CF260017A585 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36E24742B73CF260017A585 /* ContentView.swift */; };
+		C36E24772B73CF270017A585 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C36E24762B73CF270017A585 /* Assets.xcassets */; };
+		C36E247B2B73CF270017A585 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C36E247A2B73CF270017A585 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7663024A2B6339C3005CDB99 /* CloudKitPublicData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CloudKitPublicData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7663024D2B6339C3005CDB99 /* THE_KAREN_APPApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = THE_KAREN_APPApp.swift; sourceTree = "<group>"; };
 		766302512B6339C4005CDB99 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		766302542B6339C4005CDB99 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -26,10 +22,18 @@
 		7688AD9B2B69382D0015C333 /* IncidentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncidentModel.swift; sourceTree = "<group>"; };
 		76B4CABC2B6D72E2007C44CA /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		76F79A682B6C011E00253461 /* THE KAREN APP.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "THE KAREN APP.entitlements"; sourceTree = "<group>"; };
+		C36E24682B73BB780017A585 /* FrameView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrameView.swift; sourceTree = "<group>"; };
+		C36E246A2B73BB880017A585 /* FrameHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrameHandler.swift; sourceTree = "<group>"; };
+		C36E24702B73CF260017A585 /* TheKarenApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheKarenApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C36E24722B73CF260017A585 /* TheKarenAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheKarenAppApp.swift; sourceTree = "<group>"; };
+		C36E24742B73CF260017A585 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C36E24762B73CF270017A585 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C36E24782B73CF270017A585 /* TheKarenApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TheKarenApp.entitlements; sourceTree = "<group>"; };
+		C36E247A2B73CF270017A585 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		766302472B6339C3005CDB99 /* Frameworks */ = {
+		C36E246D2B73CF260017A585 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -43,6 +47,7 @@
 			isa = PBXGroup;
 			children = (
 				7663024C2B6339C3005CDB99 /* THE KAREN APP */,
+				C36E24712B73CF260017A585 /* TheKarenApp */,
 				7663024B2B6339C3005CDB99 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,7 +55,7 @@
 		7663024B2B6339C3005CDB99 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7663024A2B6339C3005CDB99 /* CloudKitPublicData.app */,
+				C36E24702B73CF260017A585 /* TheKarenApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -63,6 +68,8 @@
 				76B4CABC2B6D72E2007C44CA /* ImagePicker.swift */,
 				7688AD992B6925890015C333 /* Splash view.swift */,
 				7688AD972B6803190015C333 /* MapView.swift */,
+				C36E246A2B73BB880017A585 /* FrameHandler.swift */,
+				C36E24682B73BB780017A585 /* FrameView.swift */,
 				7688AD9B2B69382D0015C333 /* IncidentModel.swift */,
 				766302512B6339C4005CDB99 /* Assets.xcassets */,
 				766302532B6339C4005CDB99 /* Preview Content */,
@@ -78,24 +85,44 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		C36E24712B73CF260017A585 /* TheKarenApp */ = {
+			isa = PBXGroup;
+			children = (
+				C36E24722B73CF260017A585 /* TheKarenAppApp.swift */,
+				C36E24742B73CF260017A585 /* ContentView.swift */,
+				C36E24762B73CF270017A585 /* Assets.xcassets */,
+				C36E24782B73CF270017A585 /* TheKarenApp.entitlements */,
+				C36E24792B73CF270017A585 /* Preview Content */,
+			);
+			path = TheKarenApp;
+			sourceTree = "<group>";
+		};
+		C36E24792B73CF270017A585 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C36E247A2B73CF270017A585 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		766302492B6339C3005CDB99 /* CloudKitPublicData */ = {
+		C36E246F2B73CF260017A585 /* TheKarenApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 766302582B6339C4005CDB99 /* Build configuration list for PBXNativeTarget "CloudKitPublicData" */;
+			buildConfigurationList = C36E247C2B73CF270017A585 /* Build configuration list for PBXNativeTarget "TheKarenApp" */;
 			buildPhases = (
-				766302462B6339C3005CDB99 /* Sources */,
-				766302472B6339C3005CDB99 /* Frameworks */,
-				766302482B6339C3005CDB99 /* Resources */,
+				C36E246C2B73CF260017A585 /* Sources */,
+				C36E246D2B73CF260017A585 /* Frameworks */,
+				C36E246E2B73CF260017A585 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = CloudKitPublicData;
-			productName = "THE KAREN APP";
-			productReference = 7663024A2B6339C3005CDB99 /* CloudKitPublicData.app */;
+			name = TheKarenApp;
+			productName = TheKarenApp;
+			productReference = C36E24702B73CF260017A585 /* TheKarenApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -108,7 +135,7 @@
 				LastSwiftUpdateCheck = 1520;
 				LastUpgradeCheck = 1520;
 				TargetAttributes = {
-					766302492B6339C3005CDB99 = {
+					C36E246F2B73CF260017A585 = {
 						CreatedOnToolsVersion = 15.2;
 					};
 				};
@@ -126,33 +153,30 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				766302492B6339C3005CDB99 /* CloudKitPublicData */,
+				C36E246F2B73CF260017A585 /* TheKarenApp */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		766302482B6339C3005CDB99 /* Resources */ = {
+		C36E246E2B73CF260017A585 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				766302552B6339C4005CDB99 /* Preview Assets.xcassets in Resources */,
-				766302522B6339C4005CDB99 /* Assets.xcassets in Resources */,
+				C36E247B2B73CF270017A585 /* Preview Assets.xcassets in Resources */,
+				C36E24772B73CF270017A585 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		766302462B6339C3005CDB99 /* Sources */ = {
+		C36E246C2B73CF260017A585 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76B4CABD2B6D72E2007C44CA /* ImagePicker.swift in Sources */,
-				7688AD9C2B69382D0015C333 /* IncidentModel.swift in Sources */,
-				7688AD982B6803190015C333 /* MapView.swift in Sources */,
-				7688AD9A2B6925890015C333 /* Splash view.swift in Sources */,
-				7663024E2B6339C3005CDB99 /* THE_KAREN_APPApp.swift in Sources */,
+				C36E24752B73CF260017A585 /* ContentView.swift in Sources */,
+				C36E24732B73CF260017A585 /* TheKarenAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,60 +302,74 @@
 			};
 			name = Release;
 		};
-		766302592B6339C4005CDB99 /* Debug */ = {
+		C36E247D2B73CF270017A585 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "THE KAREN APP/THE KAREN APP.entitlements";
+				CODE_SIGN_ENTITLEMENTS = TheKarenApp/TheKarenApp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"THE KAREN APP/Preview Content\"";
-				DEVELOPMENT_TEAM = JN2KJZRKVV;
+				DEVELOPMENT_ASSET_PATHS = "\"TheKarenApp/Preview Content\"";
+				DEVELOPMENT_TEAM = X4K56J863F;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.Temesha.Karen;
+				PRODUCT_BUNDLE_IDENTIFIER = Chantelle.TheKarenApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		7663025A2B6339C4005CDB99 /* Release */ = {
+		C36E247E2B73CF270017A585 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "THE KAREN APP/THE KAREN APP.entitlements";
+				CODE_SIGN_ENTITLEMENTS = TheKarenApp/TheKarenApp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"THE KAREN APP/Preview Content\"";
-				DEVELOPMENT_TEAM = JN2KJZRKVV;
+				DEVELOPMENT_ASSET_PATHS = "\"TheKarenApp/Preview Content\"";
+				DEVELOPMENT_TEAM = X4K56J863F;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.Temesha.Karen;
+				PRODUCT_BUNDLE_IDENTIFIER = Chantelle.TheKarenApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -350,11 +388,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		766302582B6339C4005CDB99 /* Build configuration list for PBXNativeTarget "CloudKitPublicData" */ = {
+		C36E247C2B73CF270017A585 /* Build configuration list for PBXNativeTarget "TheKarenApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				766302592B6339C4005CDB99 /* Debug */,
-				7663025A2B6339C4005CDB99 /* Release */,
+				C36E247D2B73CF270017A585 /* Debug */,
+				C36E247E2B73CF270017A585 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
