@@ -81,6 +81,6 @@ extension FrameHandler: AVCaptureVideoDataOutputSampleBufferDelegate {
         guard let cgImage = context.createCGImage(ciImage, from: ciImage.extent) else { return nil }
         
         return cgImage
-        ContentView()
+        CustomMapView()
     }
 }
