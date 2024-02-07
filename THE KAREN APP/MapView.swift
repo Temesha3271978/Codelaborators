@@ -18,13 +18,15 @@ struct CustomMapView: View {
                                    "Image1", timestamp: Date())
     
     
-
+    @StateObject private var model = FrameHandler()
+  
     @State private var userLocationInput = ""
     @State var region =   MKCoordinateRegion(center: CLLocationCoordinate2D(latitude: 42.3314, longitude: -83.04585), span: MKCoordinateSpan(latitudeDelta: 0.5, longitudeDelta: 0.5))
     
     
     @State private var isMapClicked = false
     @State private var sheetDetail: InventoryItem?
+
 
     struct InventoryItem: Identifiable {
         var id: String
@@ -54,9 +56,12 @@ struct CustomMapView: View {
     
     ]
     
+    @State var liveFeed = false
+ 
+    
     var body: some View {
         ZStack{
-            Color(.blue)
+            Color("customColor")
                 .ignoresSafeArea()
             
             VStack{
@@ -68,20 +73,35 @@ struct CustomMapView: View {
                     Map(coordinateRegion: $region)
                     .frame(height:500)
                     
-                    Button {
-                        sheetDetail = InventoryItem(
-                            id: "0123456789",
-                            partNumber: "Z-1234A",
-                            quantity: 100,
-                            name: "Widget")
-                    } label: {
-                        Text("START HERE")
-                            .foregroundStyle(.white)
+                    HStack {
+                        
+                        Button {
+                            liveFeed.toggle()
+                        } label: {
+                            Text("START LIVE FEED")
+                                .foregroundStyle(.white)
+                        }
+                        .padding(5)
+                        .background(.black)
+                        .clipShape(Capsule())
+                        
+                        
+                        Button {
+                            sheetDetail = InventoryItem(
+                                id: "0123456789",
+                                partNumber: "Z-1234A",
+                                quantity: 100,
+                                name: "Widget")
+                        } label: {
+                            Text("START HERE")
+                                .foregroundStyle(.white)
                             
+                        }
+                        .padding(5)
+                        .background(.black)
+                        .clipShape(Capsule())
+                        
                     }
-                    .padding(5)
-                    .background(.black)
-                    .clipShape(Capsule())
                     
                     
                     ForEach(incidentList) { incident in
@@ -93,6 +113,8 @@ struct CustomMapView: View {
                                 
                                 Text(incident.name)
                                     .font(.largeTitle)
+                                
+                                
                                 Text(incident.incident)
                                 Image(incident.image)
                                     .resizable()
@@ -109,6 +131,9 @@ struct CustomMapView: View {
                 }
    
             }
+            .sheet(isPresented: $liveFeed, content: {
+                FrameView(image: model.frame)
+            })
             .sheet(item: $sheetDetail) { detail in
                 HStack {
                     
@@ -118,6 +143,7 @@ struct CustomMapView: View {
                         Text(incident.name)
                             .font(.largeTitle)
                         Text(incident.incident)
+                            
                         Image(incident.image)
                             .resizable()
                             .aspectRatio(contentMode: .fit)
