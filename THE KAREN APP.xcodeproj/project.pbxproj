@@ -7,16 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		76B4CAC02B73D270007C44CA /* THE_KAREN_APPApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7663024D2B6339C3005CDB99 /* THE_KAREN_APPApp.swift */; };
+		76B4CAC12B73D272007C44CA /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B4CABC2B6D72E2007C44CA /* ImagePicker.swift */; };
+		76B4CAC22B73D275007C44CA /* Splash view.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7688AD992B6925890015C333 /* Splash view.swift */; };
+		76B4CAC32B73D278007C44CA /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7688AD972B6803190015C333 /* MapView.swift */; };
+		76B4CAC42B73D27B007C44CA /* FrameHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36E246A2B73BB880017A585 /* FrameHandler.swift */; };
+		76B4CAC52B73D27D007C44CA /* FrameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36E24682B73BB780017A585 /* FrameView.swift */; };
+		76B4CAC62B73D280007C44CA /* IncidentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7688AD9B2B69382D0015C333 /* IncidentModel.swift */; };
+		76B4CAC72B73E40F007C44CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 766302512B6339C4005CDB99 /* Assets.xcassets */; };
 		C36E24732B73CF260017A585 /* TheKarenAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36E24722B73CF260017A585 /* TheKarenAppApp.swift */; };
 		C36E24752B73CF260017A585 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36E24742B73CF260017A585 /* ContentView.swift */; };
-		C36E24772B73CF270017A585 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C36E24762B73CF270017A585 /* Assets.xcassets */; };
 		C36E247B2B73CF270017A585 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C36E247A2B73CF270017A585 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7663024D2B6339C3005CDB99 /* THE_KAREN_APPApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = THE_KAREN_APPApp.swift; sourceTree = "<group>"; };
 		766302512B6339C4005CDB99 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		766302542B6339C4005CDB99 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7688AD972B6803190015C333 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		7688AD992B6925890015C333 /* Splash view.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Splash view.swift"; sourceTree = "<group>"; };
 		7688AD9B2B69382D0015C333 /* IncidentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncidentModel.swift; sourceTree = "<group>"; };
@@ -27,7 +33,6 @@
 		C36E24702B73CF260017A585 /* TheKarenApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheKarenApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C36E24722B73CF260017A585 /* TheKarenAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheKarenAppApp.swift; sourceTree = "<group>"; };
 		C36E24742B73CF260017A585 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		C36E24762B73CF270017A585 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C36E24782B73CF270017A585 /* TheKarenApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TheKarenApp.entitlements; sourceTree = "<group>"; };
 		C36E247A2B73CF270017A585 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -46,7 +51,6 @@
 		766302412B6339C3005CDB99 = {
 			isa = PBXGroup;
 			children = (
-				7663024C2B6339C3005CDB99 /* THE KAREN APP */,
 				C36E24712B73CF260017A585 /* TheKarenApp */,
 				7663024B2B6339C3005CDB99 /* Products */,
 			);
@@ -60,7 +64,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7663024C2B6339C3005CDB99 /* THE KAREN APP */ = {
+		C36E24712B73CF260017A585 /* TheKarenApp */ = {
 			isa = PBXGroup;
 			children = (
 				76F79A682B6C011E00253461 /* THE KAREN APP.entitlements */,
@@ -71,26 +75,9 @@
 				C36E246A2B73BB880017A585 /* FrameHandler.swift */,
 				C36E24682B73BB780017A585 /* FrameView.swift */,
 				7688AD9B2B69382D0015C333 /* IncidentModel.swift */,
-				766302512B6339C4005CDB99 /* Assets.xcassets */,
-				766302532B6339C4005CDB99 /* Preview Content */,
-			);
-			path = "THE KAREN APP";
-			sourceTree = "<group>";
-		};
-		766302532B6339C4005CDB99 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				766302542B6339C4005CDB99 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		C36E24712B73CF260017A585 /* TheKarenApp */ = {
-			isa = PBXGroup;
-			children = (
 				C36E24722B73CF260017A585 /* TheKarenAppApp.swift */,
 				C36E24742B73CF260017A585 /* ContentView.swift */,
-				C36E24762B73CF270017A585 /* Assets.xcassets */,
+				766302512B6339C4005CDB99 /* Assets.xcassets */,
 				C36E24782B73CF270017A585 /* TheKarenApp.entitlements */,
 				C36E24792B73CF270017A585 /* Preview Content */,
 			);
@@ -163,8 +150,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76B4CAC72B73E40F007C44CA /* Assets.xcassets in Resources */,
 				C36E247B2B73CF270017A585 /* Preview Assets.xcassets in Resources */,
-				C36E24772B73CF270017A585 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,8 +162,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76B4CAC52B73D27D007C44CA /* FrameView.swift in Sources */,
+				76B4CAC62B73D280007C44CA /* IncidentModel.swift in Sources */,
 				C36E24752B73CF260017A585 /* ContentView.swift in Sources */,
+				76B4CAC32B73D278007C44CA /* MapView.swift in Sources */,
+				76B4CAC22B73D275007C44CA /* Splash view.swift in Sources */,
+				76B4CAC12B73D272007C44CA /* ImagePicker.swift in Sources */,
+				76B4CAC02B73D270007C44CA /* THE_KAREN_APPApp.swift in Sources */,
 				C36E24732B73CF260017A585 /* TheKarenAppApp.swift in Sources */,
+				76B4CAC42B73D27B007C44CA /* FrameHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,9 +305,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"TheKarenApp/Preview Content\"";
-				DEVELOPMENT_TEAM = X4K56J863F;
+				DEVELOPMENT_TEAM = JN2KJZRKVV;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Our app needs to use your camera to capture live feed";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -348,9 +343,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"TheKarenApp/Preview Content\"";
-				DEVELOPMENT_TEAM = X4K56J863F;
+				DEVELOPMENT_TEAM = JN2KJZRKVV;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Our app needs to use your camera to capture live feed";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
